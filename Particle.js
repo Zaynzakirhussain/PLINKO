@@ -16,6 +16,7 @@ class Particle {
     push();
     translate(this.body.position.x, this.body.position.y);
     rotate(angle);
+    fill(this.color);
     ellipseMode(RADIUS);
     ellipse(0, 0, this.radius, this.radius);
     pop();
